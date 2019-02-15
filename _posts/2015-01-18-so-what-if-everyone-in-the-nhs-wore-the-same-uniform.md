@@ -22,6 +22,8 @@ tags:
   - NHS
   - leadership
 comments: []
+redirect_from:
+  - /so-what-if-everyone-in-the-nhs-wore-the-same-uniform/
 ---
 
 <p>So what if… everyone in the NHS wore the same uniform?</p>

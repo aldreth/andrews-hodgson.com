@@ -20,6 +20,8 @@ categories:
 tags:
   - coaching
 comments: []
+redirect_from:
+  - /trusting-the-process/
 ---
 
 <p>I have recently been learning the Alexander Technique; a technique that teaches you how to stop using unnecessary levels of muscular effort in everyday activities. Essentially it helps you to unlearn unhelpful physical habits.</p>

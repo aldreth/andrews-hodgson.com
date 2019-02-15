@@ -21,6 +21,8 @@ tags:
   - Agile
   - Organisational Development
 comments: []
+redirect_from:
+  - /to-solutioneer-or-not-to-solutioneer-the-agile-response/
 ---
 
 <p>I went to a conference recently about system thinking and somebody used the word ‘solutioneering’ to mean the thing we all do/are expected to do, to find an immediate solution to the problem, kind of solutions for the sake of it.  It has a touch of the gallant rescuer edge to it.  The problem with this is that in the NHS, and probably many other organisations, the reason things are a problem is... well it’s often really complicated, especially if there are people involved.</p>

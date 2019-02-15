@@ -30,6 +30,8 @@ comments:
     content:
       A reminder that observing can have real power in enabling a shift. Thank
       you Fay!
+redirect_from:
+  - /team-lessons-from-10-year-olds/
 ---
 
 <p>I have recently had the privilege of watching a new team develop from its conception through its incubation into the creation of a definite sapling team. It is my 10 year old son’s football team. It has been a real joy to see the difference from the start when a group of children happened to be playing football at the same time, to now where there is a definite sense of there being a single entity.</p>

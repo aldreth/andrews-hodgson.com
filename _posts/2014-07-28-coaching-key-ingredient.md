@@ -21,6 +21,8 @@ tags:
   - coaching
   - humility
 comments: []
+redirect_from:
+  - /coaching-key-ingredient/
 ---
 
 <p>The coaching arena can be a hugely powerful place for both coachee and coach; when coaching goes well it really can feel magical. In these moments it can be tempting to allow the experience to seep into our ego as a coach. For this reason, one of the key ingredients of coaching is humility. Without it there is the potential for us to go for the glory.</p>
