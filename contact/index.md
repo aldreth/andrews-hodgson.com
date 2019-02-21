@@ -24,3 +24,21 @@ comments: []
 
 <p>Email: <a href="mailto:fay@andrews-hodgson.com">fay@andrews-hodgson.com</a></p>
 <p>Twitter:  <a href="https://twitter.com/AndrewsHodgson">@AndrewsHodgson</a></p>
+
+<form class="contact-form commentsblock" netlify>
+  <div class="grunion-field-wrap grunion-field-name-wrap">
+    <label for="name" class="grunion-field-label name">Name:<span>(required)</span></label>
+    <input type="text" name="name" class="name" required aria-required="true">
+  </div>
+  <div class="grunion-field-wrap grunion-field-email-wrap">
+    <label for="email" class="grunion-field-label email">Email:<span>(required)</span></label>
+    <input type="email" name="email" id="email" value="" class="email" required aria-required="true">
+  </div>
+  <div class="grunion-field-wrap grunion-field-textarea-wrap">
+    <label for="message" class="grunion-field-label textarea">Message:<span>(required)</span></label>
+    <textarea name="g11-message" id="message" rows="20" class="textarea" required aria-required="true"></textarea>
+  </div>
+  <p class="contact-submit">
+    <input type="submit" value="Submit" class="pushbutton-wide">
+  </p>
+</form>
