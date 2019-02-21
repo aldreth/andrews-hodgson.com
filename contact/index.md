@@ -3,6 +3,7 @@ layout: page
 status: publish
 published: true
 title: Contact
+weight: 9
 author:
   display_name: Fay Andrews-Hodgson
   login: fay

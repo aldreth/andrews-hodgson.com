@@ -3,6 +3,7 @@ layout: page
 status: publish
 published: true
 title: Coaching
+weight: 3
 author:
   display_name: Fay Andrews-Hodgson
   login: fay
@@ -13,12 +14,13 @@ author_email: fay@andrews-hodgson.com
 author_url: http://andrews-hodgson.com
 wordpress_id: 109
 wordpress_url: http://andrews-hodgson.com/?page_id=109
-date: '2017-03-04 19:12:17 +0000'
-date_gmt: '2017-03-04 19:12:17 +0000'
+date: "2017-03-04 19:12:17 +0000"
+date_gmt: "2017-03-04 19:12:17 +0000"
 categories: []
 tags: []
 comments: []
 ---
+
 <p><strong>What can you expect from coaching?</strong></p>
 <p>Coaching is a conversation with a difference.  In its simplest form the coach facilitates your development and learning, using listening and questioning skills.  One of the important elements is that the conversation is set in the context of a caring coaching relationship and is intended to enable you to make progress on those things in life that matter to you.  Ultimately the coach is there to help you explore your own world to help you discover your own unique solutions that work for you.</p>
 <p><strong> </strong><strong>What style of coaching does Fay offer?</strong></p>

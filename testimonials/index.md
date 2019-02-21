@@ -3,6 +3,7 @@ layout: page
 status: publish
 published: true
 title: Testimonials
+weight: 7
 author:
   display_name: Fay Andrews-Hodgson
   login: fay

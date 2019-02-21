@@ -3,6 +3,7 @@ layout: page
 status: publish
 published: true
 title: Home
+weight: 1
 author:
   display_name: Fay Andrews-Hodgson
   login: fay

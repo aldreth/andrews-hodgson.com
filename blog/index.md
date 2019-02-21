@@ -1,8 +1,9 @@
 ---
-layout: home
+layout: posts
 status: publish
 published: true
 title: Blog
+weight: 8
 author:
   display_name: Fay Andrews-Hodgson
   login: fay

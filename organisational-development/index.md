@@ -3,6 +3,7 @@ layout: page
 status: publish
 published: true
 title: Organisational Development
+weight: 2
 author:
   display_name: Fay Andrews-Hodgson
   login: fay
