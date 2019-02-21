@@ -1,20 +1,40 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-  {%- include head.html -%}
+    {%- include head.html -%}
 
-  <body class="blog wp-embed-responsive custom-font-enabled single-author">
-      <div class="hfeed site">
-      {%- include header.html -%}
+    <body class="blog wp-embed-responsive custom-font-enabled single-author {% if page.full_width %}full-width{% endif %}">
+        <div class="hfeed site">
+            {%- include header.html -%}
+            <div class="wrapper" id="main">
+                <div class="site-content" id="primary">
+                    <div id="content" role="main">
+                        <article class="post-102 page type-page status-publish hentry" id="post-102">
+                                {{ content }}
+                        </article>
+                        <div class="comments-area" id="comments"></div>
+                    </div>
+                </div>
+                {%- if page.testimonial -%}
+                <div class="widget-area testimonial" id="secondary" role="complementary">
+                    <aside class="widget widget_text" id="text-7">
+                        <div class="textwidget">
+                            <p>
+                                {{ page.testimonial.content }}
+                            </p>
+                            <p>
+                              {%- for job in page.testimonial.jobs -%}
+                                {{ job }}<br/>
+                  {%- endfor -%}
 
-      <main class="page-content" aria-label="Content">
-        <div class="wrapper">
-          {{ content }}
+
+                            </p>
+                        </div>
+                    </aside>
+                </div>
+                {%- endif -%}
+            </div>
         </div>
-      </main>
-
-      {%- include footer.html -%}
-    </div>
-  </body>
+    </body>
 
 </html>

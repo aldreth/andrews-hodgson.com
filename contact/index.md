@@ -4,6 +4,7 @@ status: publish
 published: true
 title: Contact
 weight: 9
+full_width: true
 author:
   display_name: Fay Andrews-Hodgson
   login: fay

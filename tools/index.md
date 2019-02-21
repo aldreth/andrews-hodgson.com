@@ -4,6 +4,7 @@ status: publish
 published: true
 title: Tools
 weight: 6
+full_width: true
 author:
   display_name: admin
   login: admin

@@ -19,6 +19,14 @@ date_gmt: "2017-03-04 19:22:52 +0000"
 categories: []
 tags: []
 comments: []
+testimonial:
+  jobs:
+    - Nicola Lockwood
+    - Matron
+    - NHS
+  content: >-
+    "Fay's ability to recognise behaviours, attitudes and encourage employees to manage themselves with
+    a set of tools and responses made me truly believe in the power of organisational development."
 ---
 
 <p>Organisational development (OD) is the practice of systematically applying behavioural science practices and principles to increase organisational effectiveness and well-being.  What is key to OD is that we attend to both human as well as organisational need.  In this time of immense change, the practice of OD can help clients through the change process, creating safe spaces for people to explore, learn, grow, make sense of their experience, develop relationships and take action in a way that feels inclusive.</p>

@@ -4,7 +4,9 @@
 <header class="site-header" role="banner">
     <hgroup>
         <h1 class="site-title">
-            <a href="https://andrews-hodgson.com/" rel="home" title="{{ site.title | escape }}">{{ site.title | escape }}</a >
+            <a href="/" rel="home" title="{{ site.title | escape }}">{{
+        site.title | escape
+      }}</a>
         </h1>
         <h2 class="site-description">
             {{ site.description | escape }}
@@ -12,20 +14,20 @@
     </hgroup>
 
     {%- assign page_paths = site.pages | sort: "weight" | map: "path" -%}
-    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    {%- if titles_size > 0 -%}
+    {%-
+  assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+    {%- if
+  titles_size > 0 -%}
         <nav class="main-navigation" id="site-navigation" role="navigation">
             <button class="menu-toggle">Menu</button>
             <a class="assistive-text" href="#content" title="Skip to content">Skip to content</a >
-
-            {%- assign header_page_paths = site.header_pages -%}
             <div class="menu-top-container">
                 <ul class="nav-menu" id="menu-top">
                     {%- for path in page_paths -%}
                         {%- assign my_page = site.pages | where: "path", path | first -%}
                         {%- if my_page.title -%}
                             <li class="{% if my_page.url == page.url %}current-menu-item{% endif %} menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-143">
-                                <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                                <a href="{{ my_page.url | relative_url }}">{{ my_page.menu_title | default: my_page.title | escape }}</a>
                             </li>
                         {%- endif -%}
                     {%- endfor -%}

@@ -2168,8 +2168,6 @@ img.aligncenter,
 }
 .site-content article {
   border-bottom: 4px double #ededed;
-  margin-bottom: 72px;
-  margin-bottom: 5.142857143rem;
   padding-bottom: 24px;
   padding-bottom: 1.714285714rem;
   word-wrap: break-word;
@@ -2700,8 +2698,8 @@ img#wpstats {
     color: #000;
   }
   .main-navigation li {
-    margin: 0 40px 0 0;
-    margin: 0 2.857142857rem 0 0;
+    margin: 0 42px 0 0;
+    margin: 0 3rem 0 0;
     position: relative;
   }
   .main-navigation li ul {
@@ -2978,8 +2976,8 @@ a.masthead-image-link img {
 }
 @media screen and (min-width: 600px) {
   .main-navigation li {
-    margin: 0 34px 0 0;
-    margin: 0 2.44rem 0 0;
+    margin: 0 42px 0 0;
+    margin: 0 3rem 0 0;
   }
   .main-navigation li:last-child {
     margin: 0;

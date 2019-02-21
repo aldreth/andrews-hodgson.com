@@ -4,6 +4,7 @@ status: publish
 published: true
 title: About
 weight: 5
+full_width: true
 author:
   display_name: Fay Andrews-Hodgson
   login: fay

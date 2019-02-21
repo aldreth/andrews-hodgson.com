@@ -3,6 +3,7 @@ layout: page
 status: publish
 published: true
 title: Coaching supervision
+menu_title: Supervision
 weight: 4
 author:
   display_name: Fay Andrews-Hodgson
@@ -19,6 +20,21 @@ date_gmt: "2017-03-04 19:14:55 +0000"
 categories: []
 tags: []
 comments: []
+testimonial:
+  jobs:
+    - Jenny Stacey
+    - Associate Programme Director
+    - Diploma in Advanced business & Executive coaching
+    - University College Dublin
+  content: >-
+    "As soon as I met Fay I felt able to relax and say what was important. In the supervisory relationship
+    she creates safety and allows both seriousness and lightness to be present. The coach can use the supervision
+    space to reflect, question and wonder-about, and in discussion with Fay insight and actions emerge. Underpinning
+    her coaching supervision practice is her impressive theoretical understanding of different models of supervision,
+    team issues and psychological dynamics that impact the work of a coach. This means she can work at different
+    levels depending on the needs of the coach in the here and now. As a coach supervisor, she is experienced in the
+    complex challenges faced by internal coaches as well as those brought by external coaches. I would definitely
+    recommend her as a supervisor."
 ---
 
 <p><strong>What can you expect from coaching Supervision?</strong></p>

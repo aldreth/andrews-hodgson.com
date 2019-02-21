@@ -19,6 +19,15 @@ date_gmt: "2017-03-04 19:12:17 +0000"
 categories: []
 tags: []
 comments: []
+testimonial:
+  jobs:
+    - Laura Milburn
+    - General Manger
+    - NHS
+  content: >-
+    "I would recommend Fay to anyone thinking about coaching for themselves as individuals, or for their teams.
+    Fay’s methods and techniques are so subtle but empowering, you really do discover the best version of yourself
+    and you are able to find your own solutions."
 ---
 
 <p><strong>What can you expect from coaching?</strong></p>

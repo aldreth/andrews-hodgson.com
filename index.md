@@ -2,7 +2,8 @@
 layout: page
 status: publish
 published: true
-title: Home
+title: Fay Andrews-Hodgson
+menu_title: Home
 weight: 1
 author:
   display_name: Fay Andrews-Hodgson
@@ -19,6 +20,14 @@ date_gmt: "2017-03-04 17:41:46 +0000"
 categories: []
 tags: []
 comments: []
+testimonial:
+  jobs:
+    - Manager
+    - NHS
+  content: >-
+    "Coaching has been a life saver for me. In such a short space of time (possibly even after the first session)
+    my confidence improved exponentially. I have found the strength within myself to take on new challenges – a
+    new job in fact! I am very grateful for the opportunity to partake in coaching and Fay has made such a difference to my life."
 ---
 
 <h2>Coaching &amp; Organisational Development</h2>
