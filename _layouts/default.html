@@ -33,7 +33,7 @@
                     </aside>
                 </div>
                 {%- endif -%}
-                {%- if page.layout == 'post' -%}
+                {%- if page.layout == 'post' or page.layout == 'posts' -%}
                     {%- include post_sidebar.html -%}
                 {%- endif -%}
             </div>

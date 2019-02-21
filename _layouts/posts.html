@@ -2,36 +2,35 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
+{%- if site.posts.size > 0 -%}
+  {%- for post in site.posts -%}
+    	<article class="post-80 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-leadership tag-nhs tag-team">
+				<header class="entry-header">
+          {%- if post.image -%}
+              <img
+              width="624"
+              height="345"
+              src="/assets/{{ post.image}}"
+              class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+              alt="{{ post.title }}"
+            />
+          {%- endif -%}
+          <h1 class="entry-title">
+            <a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title | escape }}</a>
+          </h1>
+          {% comment %} <div class="comments-link">
+            <a href="https://andrews-hodgson.com/so-what-if-everyone-in-the-nhs-wore-the-same-uniform/#respond"><span class="leave-reply">Leave a reply</span></a>
+          </div> {% endcomment %}
+        </header>
+				<div class="entry-content">
           {{ post.excerpt }}
-          <a class="more-link" href="{{ post.url | relative_url }}">
-            Continue reading
-          </a>
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+          <p>
+            <a href="{{ post.url | relative_url }}" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a>
+          </p>
+        </div>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
-</div>
+		<footer class="entry-meta">
+			This entry was posted in <a href="https://andrews-hodgson.com/category/uncategorized/" rel="category tag">Uncategorized</a> and tagged <a href="https://andrews-hodgson.com/tag/leadership/" rel="tag">leadership</a>, <a href="https://andrews-hodgson.com/tag/nhs/" rel="tag">NHS</a>, <a href="https://andrews-hodgson.com/tag/team/" rel="tag">team</a> on <a href="https://andrews-hodgson.com/so-what-if-everyone-in-the-nhs-wore-the-same-uniform/" title="1:04 pm" rel="bookmark"><time class="entry-date" datetime="2015-01-18T13:04:57+00:00">18 January 2015</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="https://andrews-hodgson.com/author/fay/" title="View all posts by Fay Andrews-Hodgson" rel="author">Fay Andrews-Hodgson</a></span></span>.								</footer><!-- .entry-meta -->
+	</article>
+  {%- endfor -%}
+{%- endif -%}
