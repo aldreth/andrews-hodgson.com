@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Team lessons from 10 year olds
+image: football.jpg
 author:
   display_name: Fay Andrews-Hodgson
   login: fay

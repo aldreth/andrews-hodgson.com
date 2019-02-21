@@ -1,0 +1,28 @@
+<div id="secondary" class="widget-area" role="complementary">
+  <aside class="widget">
+    <a
+      class="twitter-timeline"
+      data-width="250"
+      data-height="500"
+      data-dnt="true"
+      data-theme="light"
+      href="https://twitter.com/AndrewsHodgson"
+      >Tweets by Fay Andrews-Hodgson</a
+    >
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
+  </aside>
+  <aside class="widget widget_recent_entries">
+    <h3 class="widget-title">Recent Posts</h3>
+    <ul>
+      {% for post in site.posts limit:5 %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </aside>
+</div>

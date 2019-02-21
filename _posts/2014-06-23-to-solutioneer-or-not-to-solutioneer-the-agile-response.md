@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: To solutioneer or not to solutioneer… the Agile response
+image: juggler.jpg
 author:
   display_name: Fay Andrews-Hodgson
   login: fay

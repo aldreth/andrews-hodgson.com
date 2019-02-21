@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Coaching’s key ingredient
+image: ingredients.jpg
 author:
   display_name: Fay Andrews-Hodgson
   login: fay

@@ -3,6 +3,7 @@ layout: post
 status: publish
 published: true
 title: Trusting the process
+image: climb.jpg
 author:
   display_name: Fay Andrews-Hodgson
   login: fay

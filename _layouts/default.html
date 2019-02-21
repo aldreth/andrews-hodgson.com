@@ -33,6 +33,9 @@
                     </aside>
                 </div>
                 {%- endif -%}
+                {%- if page.layout == 'post' -%}
+                    {%- include post_sidebar.html -%}
+                {%- endif -%}
             </div>
         </div>
     </body>

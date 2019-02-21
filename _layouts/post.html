@@ -2,41 +2,27 @@
 layout: default
 ---
 
-<article
-  class="post h-entry"
-  itemscope
-  itemtype="http://schema.org/BlogPosting"
->
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">
-      {{ page.title | escape }}
-    </h1>
-    <p class="post-meta">
-      <time
-        class="dt-published"
-        datetime="{{ page.date | date_to_xmlschema }}"
-        itemprop="datePublished"
-      >
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
-        -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%} •
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person"
-        ><span class="p-author h-card" itemprop="name">{{
-          page.author.display_name
-        }}</span></span
-      >
-      {%- endif -%}
-    </p>
-  </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
-  {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%-
-  endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+<header class="entry-header">
+    {%- if page.image -%}
+      <img
+      width="624"
+      height="345"
+      src="/assets/{{ page.image}}"
+      class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+      alt="{{ page.title }}"
+    />
+  {%- endif -%}
+  <h1 class="entry-title">{{ page.title }}</h1>
+</header>
+<div class="entry-content">
+  {{ content }}
+</div>
+<nav class="nav-single">
+  <h3 class="assistive-text">Post navigation</h3>
+  {% if page.previous.url %}
+      <span class="nav-previous"><a href="{{page.previous.url}}" rel="prev"><span class="meta-nav">&larr;</span>{{page.previous.title}}</a></span>
+  {% endif %}
+  {% if page.next.url %}
+    <span class="nav-next"><a href="{{page.next.url}}" rel="next">{{ page.next.title }} <span class="meta-nav">&rarr;</span></a></span>
+  {% endif %}
+</nav>
