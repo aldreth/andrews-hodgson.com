@@ -25,7 +25,7 @@ comments: []
 <p>Email: <a href="mailto:fay@andrews-hodgson.com">fay@andrews-hodgson.com</a></p>
 <p>Twitter:  <a href="https://twitter.com/AndrewsHodgson">@AndrewsHodgson</a></p>
 
-<form class="contact-form commentsblock" netlify>
+<form class="contact-form commentsblock" name="contact" netlify>
   <div class="grunion-field-wrap grunion-field-name-wrap">
     <label for="name" class="grunion-field-label name">Name:<span>(required)</span></label>
     <input type="text" name="name" class="name" required aria-required="true">

@@ -18,9 +18,6 @@ layout: default
           <h1 class="entry-title">
             <a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title | escape }}</a>
           </h1>
-          {% comment %} <div class="comments-link">
-            <a href="https://andrews-hodgson.com/so-what-if-everyone-in-the-nhs-wore-the-same-uniform/#respond"><span class="leave-reply">Leave a reply</span></a>
-          </div> {% endcomment %}
         </header>
 				<div class="entry-content">
           {{ post.excerpt }}
@@ -28,9 +25,19 @@ layout: default
             <a href="{{ post.url | relative_url }}" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a>
           </p>
         </div>
-
-		<footer class="entry-meta">
-			This entry was posted in <a href="https://andrews-hodgson.com/category/uncategorized/" rel="category tag">Uncategorized</a> and tagged <a href="https://andrews-hodgson.com/tag/leadership/" rel="tag">leadership</a>, <a href="https://andrews-hodgson.com/tag/nhs/" rel="tag">NHS</a>, <a href="https://andrews-hodgson.com/tag/team/" rel="tag">team</a> on <a href="https://andrews-hodgson.com/so-what-if-everyone-in-the-nhs-wore-the-same-uniform/" title="1:04 pm" rel="bookmark"><time class="entry-date" datetime="2015-01-18T13:04:57+00:00">18 January 2015</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="https://andrews-hodgson.com/author/fay/" title="View all posts by Fay Andrews-Hodgson" rel="author">Fay Andrews-Hodgson</a></span></span>.								</footer><!-- .entry-meta -->
+        <footer class="entry-meta">
+          <p>
+            This entry was posted on {{ post.date_gmt | date: "%-d %b %Y" }}.
+          </p>
+          {%- if post.tags.size > 0 -%}
+            <p>
+              Tagged&nbsp;
+              {%- for tag in post.tags -%}
+                <a href="/tags/{{ tag }}/" rel="tag">{{ tag }}</a>&nbsp;
+              {%- endfor -%}
+            </p>
+          {%- endif -%}
+        </footer>
 	</article>
   {%- endfor -%}
 {%- endif -%}

@@ -19,8 +19,8 @@ date_gmt: "2014-06-23 15:05:49 +0100"
 categories:
   - Uncategorized
 tags:
-  - Agile
-  - Organisational Development
+  - agile
+  - organisational-development
 comments: []
 redirect_from:
   - /to-solutioneer-or-not-to-solutioneer-the-agile-response/

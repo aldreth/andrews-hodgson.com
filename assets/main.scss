@@ -2361,8 +2361,8 @@ article.format-quote .entry-content blockquote {
   margin: 1.714285714rem 0;
 }
 .comments-area article header {
-  margin: 0 0 48px;
-  margin: 0 0 3.428571429rem;
+  margin: 0 0 28px;
+  margin: 0 0 2rem;
   overflow: hidden;
   position: relative;
 }
@@ -2374,8 +2374,6 @@ article.format-quote .entry-content blockquote {
 .comments-area article header cite,
 .comments-area article header time {
   display: block;
-  margin-left: 85px;
-  margin-left: 6.071428571rem;
 }
 .comments-area article header cite {
   font-style: normal;
@@ -2922,11 +2920,6 @@ img#wpstats {
     left: 2.2em;
     top: 2.2em;
     width: 39px;
-  }
-  .comments-area article header cite,
-  .comments-area article header time {
-    margin-left: 50px;
-    margin-left: 3.57142857rem;
   }
 }
 a.masthead-image-link {

@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<header class="archive-header">
+  <h1 class="archive-title">
+    Tag Archives: <span>{{ page.tag }}</span>
+  </h1>
+</header>
+{%- for post in page.posts -%}
+<article
+  class="post-80 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-leadership tag-nhs tag-team"
+>
+  <header class="entry-header">
+    {%- if post.image -%}
+    <img
+      width="624"
+      height="345"
+      src="/assets/{{ post.image }}"
+      class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+      alt="{{ post.title }}"
+    />
+    {%- endif -%}
+    <h1 class="entry-title">
+      <a href="{{ post.url | relative_url }}" rel="bookmark">{{
+        post.title | escape
+      }}</a>
+    </h1>
+  </header>
+  <div class="entry-content">
+    {{ post.excerpt }}
+    <p>
+      <a href="{{ post.url | relative_url }}" class="more-link"
+        >Continue reading <span class="meta-nav">&rarr;</span></a
+      >
+    </p>
+  </div>
+  <footer class="entry-meta">
+    <p>This entry was posted on {{ post.date_gmt | date: "%-d %b %Y" }}.</p>
+    {%- if post.tags.size > 0 -%}
+    <p>
+      Tagged&nbsp; {%- for tag in post.tags -%}
+      <a href="/tags/{{ tag }}/" rel="tag">{{ tag }}</a
+      >&nbsp; {%- endfor -%}
+    </p>
+    {%- endif -%}
+  </footer>
+</article>
+{%- endfor -%}
+
+<div id="tag-cloud">
+  {{ page | tag_cloud }}
+</div>
