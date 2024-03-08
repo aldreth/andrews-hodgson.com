@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*"
+  to = "https://insightspace.co.uk"
+  status = 301
+  force = true
